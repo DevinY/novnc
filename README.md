@@ -17,3 +17,8 @@ etc/ssl/privkey.pem
 <pre>
 docker-compose up -d
 </pre>
+
+5. open url
+<pre>
+/vnc.html?path=websockify/?token=devin
+</pre>
