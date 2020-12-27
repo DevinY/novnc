@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  novnc:
+    build: .
+    ports: 
+      - "8080:6080"
+    volumes:
+      - ./etc/ssl:/etc/ssl
+      - ./etc/servers.conf:/etc/servers.conf
